@@ -77,6 +77,15 @@ npm run preview
 * Untuk unggah gambar, silahkan tambahkan gambar saat membuat transaksi.
 * Untuk unduh gambar, silahkan klik `edit` pada transaksi yang sudah ada gambarnya, klik `view transaction bill`, lalu klik saja gambarnya, maka akan diarahkan ke link download gambar.
 
+## Screenshots
+![pic](./screenshots/transactions.png)
+![pic](./screenshots/accounts.png)
+![pic](./screenshots/categories.png)
+![pic](./screenshots/responsive.png)
+![pic](./screenshots/modal.png)
+![pic](./screenshots/upload.png)
+![pic](./screenshots/register.png)
+
 ## Contributors
 * Faris Hasan (Project lead & testing division)
-* Mariana (UI and logic function division)
+* Mariana Djum (UI and logic function division)

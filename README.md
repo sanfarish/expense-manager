@@ -2,14 +2,14 @@
 
 Expense Manager adalah aplikasi web-based untuk membuat dan menyimpan catatan harian transaksi uang.
 
-* Untuk melihat website, lihat disini https://expensemanager.biz.id
-* Untuk repository live client, lihat disini https://github.com/sanfarish/EMclient
+* Untuk melihat website, lihat disini https://expensemanager.farishasan.web.id
+* Untuk repository live client, lihat disini https://github.com/sanfarish/expense-manager-frontend
 
 * [ FOR RECRUITER ]: Untuk memudahkan, silahkan login dengan email: `faris@mail.com` dan pass: `faris`.
 * [ FOR RECRUITER ]: Mohon untuk tidak mengubah data user `faris`, hanya untuk di lihat. Terima kasih!
 
-* Untuk melihat api, lihat disini https://api.expensemanager.biz.id/api/v1/docs (dokumentasi)
-* Untuk repository live server, lihat disini https://github.com/sanfarish/EMserver
+* Untuk melihat api, lihat disini https://apiexpensemanager.farishasan.web.id/api/v1/docs (dokumentasi)
+* Untuk repository live server, lihat disini https://github.com/sanfarish/expense-manager-backend
 
 ## Feature
 

@@ -47,8 +47,23 @@ npm i
 ## Installation
 
 ### Start Server
-Pertama, masukkan file .env ke folder /server, file .env ada di link berikut:
-https://drive.google.com/file/d/1FPFsrLZPCxrlsrCwGoURWkyMl_a-H10y/view?usp=drive_link
+Pertama, buat file .env ke folder /server, berikut contohnya:
+```bash
+PORT=3000
+ACCESS_SECRET_TOKEN=###
+# Knex
+D_CLIENT=pg
+D_HOST=localhost
+D_PORT=5432
+D_USER=postgres
+D_PASSWORD=###
+D_DATABASE=postgres
+# Cloudinary
+C_NAME=###
+C_KEY=####
+C_SECRET=###
+C_PATH=###
+```
 
 Lalu tuliskan kode dibawah:
 ```bash

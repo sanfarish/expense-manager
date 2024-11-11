@@ -3,13 +3,32 @@
 Expense Manager adalah aplikasi web-based untuk membuat dan menyimpan catatan harian transaksi uang.
 
 * Untuk melihat website, lihat disini https://expensemanager.farishasan.web.id
-* Untuk repository live client, lihat disini https://github.com/sanfarish/expense-manager-frontend
 
 * [ FOR RECRUITER ]: Untuk memudahkan, silahkan login dengan email: `faris@mail.com` dan pass: `faris`.
 * [ FOR RECRUITER ]: Mohon untuk tidak mengubah data user `faris`, hanya untuk di lihat. Terima kasih!
 
-* Untuk melihat api, lihat disini https://apiexpensemanager.farishasan.web.id/api/v1/docs (dokumentasi)
-* Untuk repository live server, lihat disini https://github.com/sanfarish/expense-manager-backend
+* Untuk melihat api, lihat disini https://expensemanager.farishasan.web.id/api/v1/docs (dokumentasi)
+
+## Contributors
+* Faris Hasan (Project lead & backend division)
+* Mariana Djum (UI & frontend division)
+
+## Tech Stack used
+### Full Javascript language project
+### Frontend:
+* React + Vite
+* React Router
+* ANT Design + CSS3 for UI
+### Backend:
+* Node.js + Express
+* Postgres
+* Knex as ORM
+* JWT for authentication
+* Cloudinary for image upload
+### Testing with Jest
+### Deployment:
+* Ubuntu VPS + Nginx web server
+* GitHub Actions for CI/CD
 
 ## Feature
 
@@ -103,7 +122,3 @@ npm run preview
 ![pic](./screenshots/modal.png)
 ![pic](./screenshots/upload.png)
 ![pic](./screenshots/register.png)
-
-## Contributors
-* Faris Hasan (Project lead & testing division)
-* Mariana Djum (UI and logic function division)

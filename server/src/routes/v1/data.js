@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const authorization = require('../middlewares/authorization');
-const fileUpload = require('../middlewares/fileUpload');
-const transaction = require('../controllers/transactions');
-const account = require('../controllers/accounts');
-const income = require('../controllers/incomes');
-const expense = require('../controllers/expenses');
-const user = require('../controllers/users');
+const authorization = require('../../middlewares/authorization');
+const fileUpload = require('../../middlewares/fileUpload');
+const transaction = require('../../controllers/transactions');
+const account = require('../../controllers/accounts');
+const income = require('../../controllers/incomes');
+const expense = require('../../controllers/expenses');
+const user = require('../../controllers/users');
 
 router.get('/transactions', authorization, transaction.getTransactions);
 router.post('/transactions', authorization, fileUpload('transaction_bill'), transaction.createTransaction);

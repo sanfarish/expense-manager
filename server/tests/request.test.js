@@ -1,7 +1,7 @@
 const request = require('supertest');
 const express = require('express');
 const notFound = require('../src/middlewares/notFound');
-const authRoute = require('../src/routes/auth');
+const authRoute = require('../src/routes/v1/auth');
 
 const mockUsers = [
 	{

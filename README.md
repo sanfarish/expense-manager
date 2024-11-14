@@ -12,7 +12,8 @@ Expense Manager is a web-based app to track daily money expense. It allows users
 * Mariana Djum (UI & frontend division)
 
 ## Tech Stack used
-### Full Javascript language project
+### Language:
+* Javascript
 ### Frontend:
 * React + Vite
 * React Router
@@ -23,7 +24,8 @@ Expense Manager is a web-based app to track daily money expense. It allows users
 * Knex as ORM
 * JWT for authentication
 * Cloudinary for image storage (upload/download)
-### Testing with Jest
+### Testing:
+* Jest (frontend & backend)
 ### Deployment:
 * Ubuntu VPS + Nginx web server
 * GitHub Actions for CI/CD
